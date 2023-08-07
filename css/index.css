@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: 'Monaco', monospace;
+}
+
+header {
+  padding: 15px;
+  display: inline-block;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  font-size: 20px;
+
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+header ul {
+  color: #900C3F;
+
+
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.logo{
+    width: 25%;
+}
+
+.searchBar {
+    background-color: #900C3F;
+    border-radius: 10px;
+    width: 25%;
+    padding: 10px;
+    color: white;
+}
+
+.content {
+    padding: 32px;
+}
+
+.infoCard {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #F1E1E7;
+  color: #900C3F;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+button {
+  padding: 15px;
+  background-color: #900C3F;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: 'Monaco', monospace;
+  width: 50%;
+}
+
+.resumeButton {
+  display: flex;
+  justify-content: center;
+}
+
+.allCards{
+    display: flex;
+    align-items: stretch;
+    margin: 36px;
+
+}
+.projectCard {
+    display: inline-block;
+    margin-right: 16px;
+    background-color: #F1E1E7;
+    color: #900C3F;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 33%;
+    padding: 100px;
+    text-align: center;
+}
+
+
+footer {
+  background-color: white;
+  padding: 5px;
+  color: #900C3F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
