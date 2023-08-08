@@ -1,4 +1,4 @@
-      body {
+body {
   margin: 0;
   background-color: white;
   font-family: 'Monaco', monospace;
@@ -96,12 +96,50 @@ button {
 
 }
 
-/*overall card section original*/
+/*overall card section original
 .allCards{
     display: flex;
     margin: 18px;
+} */
+
+/*overall card section grid*/
+.allCardsGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        'projectImage projectImage projectImage'
+        'projectText projectText projectText';
 }
 
+.gridProperties {
+  margin: 15px;
+  padding: 15px;
+  height: 200px;
+}
+
+.projectImage {
+    grid-area: projectImage;
+     width: 33%;
+
+}
+
+.projectText {
+    grid-area: projectText;
+    color: orange;
+        display: inline-block;
+        margin-right: 16px;
+        background-color: #F1E1E7;
+        color: #900C3F;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 33%;
+        padding: 16px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
 
 /*apply to all cards*/
 .projectCard {
