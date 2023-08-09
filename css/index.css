@@ -1,4 +1,4 @@
-      body {
+body {
   margin: 0;
   background-color: white;
   font-family: 'Monaco', monospace;
@@ -6,7 +6,6 @@
 
 header {
   padding: 15px;
-  display: inline-block;
   display: flex;
   padding: 15px;
   align-items: center;
@@ -18,11 +17,11 @@ header {
   justify-content: center;
   width: 50%;
 }
+
 header ul {
   color: #900C3F;
-
-
 }
+
 header li {
   display: inline-block;
   padding: 0px 5px;
@@ -32,12 +31,18 @@ header li {
     width: 25%;
 }
 
+.icons {
+    display: none;
+    border-radius: 10px;
+
+}
+
 .searchBar {
     background-color: #900C3F;
     border-radius: 10px;
     width: 25%;
     padding: 10px;
-    color: white;
+    color: #F1E1E7;
 }
 
 .content {
@@ -61,11 +66,11 @@ header li {
 button {
   padding: 15px;
   background-color: #900C3F;
-  color: white;
+  color: #F1E1E7;
   font-size: 20px;
   border-radius: 10px;
   font-family: 'Monaco', monospace;
-  width: 50%;
+
 }
 
 .resumeButton {
@@ -74,17 +79,21 @@ button {
 }
 
 .projectsButton {
-  display: flex;
-  justify-content: center;
-  padding: 32px;
+
+
 }
 
 .allProjectsButton {
     display: flex;
     justify-content: center;
-    padding: 32px;
-
+    padding: 15px;
 }
+
+
+.allProjectsButton button {
+    width:100%;
+}
+
 
 .sectionHeader {
     color: #480620;
@@ -164,11 +173,18 @@ footer li {
 }
 
 @media only screen and (max-width: 1090px) {
-    .menu{
+   .menu{
         display: none;
    }
    .searchBar {
-        margin-left: auto;
+        display: none;
+   }
+
+   header {
+        justify-content: space-between;
+   }
+   .icons {
+    display: flex;
    }
 }
 
@@ -184,9 +200,4 @@ footer li {
         "locationUI"
         "FCC";
    }
-    .allProjectsButton {
-    /*Need to Update*/
-        width: 100%;
-    }
-
 }
