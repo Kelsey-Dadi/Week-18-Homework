@@ -163,6 +163,17 @@ footer li {
   padding: 0px 7px;
 }
 
+@media only screen and (max-width: 1090px) {
+    .menu{
+        display: none;
+   }
+   .searchBar {
+        margin-left: auto;
+   }
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .allCardsGrid{
         row-gap: 18px;
@@ -174,9 +185,8 @@ footer li {
         "FCC";
    }
     .allProjectsButton {
-width: 600px%;
-
-
+    /*Need to Update*/
+        width: 100%;
     }
 
 }
