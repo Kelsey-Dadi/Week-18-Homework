@@ -38,11 +38,11 @@ header li {
 }
 
 .searchBar {
-    background-color: #BFA59F;
-    color: #3F3F3F;
+    background-color: #900C3F;
     border-radius: 10px;
     width: 25%;
     padding: 10px;
+    color: #F1E1E7;
 }
 
 .content {
@@ -65,11 +65,12 @@ header li {
 
 button {
   padding: 15px;
-  background-color: #BFA59F;
-  color: #3F3F3F;
+  background-color: #900C3F;
+  color: #F1E1E7;
   font-size: 20px;
   border-radius: 10px;
   font-family: 'Monaco', monospace;
+
 }
 
 .resumeButton {
