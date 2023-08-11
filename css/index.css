@@ -8,13 +8,14 @@ header {
   padding: 15px;
   display: flex;
   padding: 15px;
-  align-items: center;
+  justify-content: space-between;
   font-size: 20px;
+  height: 50px;
 
 }
 .menu {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   width: 50%;
 }
 
@@ -28,7 +29,8 @@ header li {
 }
 
 .logo{
-    width: 25%;
+    height: 68px;
+    justify-content: flex-start;
 }
 
 .icons {
@@ -39,6 +41,10 @@ header li {
 
 .searchBar {
     background-color: #900C3F;
+<<<<<<< HEAD
+=======
+    color: #F1E1E7;
+>>>>>>> parent of c7db559 (Revert "Final")
     border-radius: 10px;
     width: 25%;
     padding: 10px;
@@ -50,7 +56,7 @@ header li {
 }
 
 .infoCard {
-  max-width: 1200px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 16px;
   background-color: #F1E1E7;
@@ -180,9 +186,7 @@ footer li {
         display: none;
    }
 
-   header {
-        justify-content: space-between;
-   }
+
    .icons {
     display: flex;
    }
